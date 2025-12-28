@@ -1798,7 +1798,7 @@ ensureDefaultModel();
         // demo data
         const dir  = Math.random() < 0.5 ? "DOWN" : "UP";
         const conf = rand(72, 96);
-        const acc  = rand(40, 88);
+        const acc  = rand(85, 99);
 
         const strengthCode = (Math.random() < 0.65 ? "High" : "Medium");
         const volCode = ["Low","Medium","High"][rand(0,2)];
